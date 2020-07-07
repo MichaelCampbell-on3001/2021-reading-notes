@@ -13,5 +13,5 @@ It means you know that you will struggle, but are willing to submit to the to th
 A *text editor*, while it is another piece of software, it becomes a personal choice as to which one you choose. Like a Jedi chooses a lightsaber, a developer chooses their text editor. There is a variety of text editors, some that come preinstalled on computers and some that require downloading onto your device.  
 ~~coding is hard~~
 ## Markdown ##
-Markdown is a striped-down programing language that can be used with the ools found at www.github.com
+Markdown is a striped-down programing language that can be used with the tools found at www.github.com
 It allows the user to easily add formatting and style to the text on their page. For example, Markdown allows you to quickly add headers, coloumns and tables to your page. It also enables the user to easily add **bold**, *italaics* and ~~strike outs to text~~.
