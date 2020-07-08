@@ -19,5 +19,5 @@ It allows the user to easily add formatting and style to the text on their page.
 
 Class 01 | Class 02 | Class 03
 -------- | ---------|---------|
-Class 01 Notes | [Tools and Terminal](tools-terminal.md) | Class 03 Notes
+Class 01 Notes | [Tools and Terminal](https://michaelcampbell2020.github.io/reading-notes/tools-terminal.html) | Class 03 Notes
             
