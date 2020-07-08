@@ -16,3 +16,7 @@ It allows the user to easily add formatting and style to the text on their page.
 
 
 [Tools and Terminal](tools-terminal.md)
+
+Class 01 | Class 02 | Class 03
+------------ | -------------
+Class 01 Notes | Class 02 Notes | Class 03 Notes
