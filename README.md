@@ -1,5 +1,5 @@
 # reading-notes
-Hello, my name is **Michael**. This page contains my reading notes for my time at **Code Fellows**
+Hello, my name is **Michael**. This page contains my reading notes for my time at
 [Code Fellows](www.codefellows.com)
 ## Growth mindset ##
 >To me,having a growth mindset means having the ability to pursue new challenges and expect them to be dificult. 
