@@ -15,3 +15,5 @@ When you enter commands, they are actually stored in a history. You can traverse
 **Paths**  The two types of paths are absolute and relative.
 Absolute paths specify a location (file or directory) in relation to the root directory. You can identify them easily as they always begin with a forward slash ( / )
 Relative paths specify a location (file or directory) in relation to where we currently are in the system. They will not begin with a slash.
+**mkdir** creates a new directory
+**touch** creates a new file
