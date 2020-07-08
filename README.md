@@ -8,9 +8,7 @@ It means you know that you will struggle, but are willing to submit to the to th
 1. Don't get discouraged from failure.
 1. Always ask for help.
 1. Remember to refelct on what you have learned.
-
-### Text Editors ###
-A *text editor*, while it is another piece of software, it becomes a personal choice as to which one you choose. Like a Jedi chooses a lightsaber, a developer chooses their text editor. There is a variety of text editors, some that come preinstalled on computers and some that require downloading onto your device.  
+  
 ~~coding is hard~~
 ## Markdown ##
 Markdown is a striped-down programing language that can be used with the tools found at www.github.com
