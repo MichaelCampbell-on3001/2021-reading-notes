@@ -17,3 +17,5 @@ Absolute paths specify a location (file or directory) in relation to the root di
 Relative paths specify a location (file or directory) in relation to where we currently are in the system. They will not begin with a slash.
 **mkdir** creates a new directory
 **touch** creates a new file
+###Text Editors###
+A text editor, while it is another piece of software, it becomes a personal choice as to which one you choose. Like a Jedi chooses a lightsaber, a developer chooses their text editor. There is a variety of text editors, some that come preinstalled on computers and some that require downloading onto your device.
