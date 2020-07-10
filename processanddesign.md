@@ -1,5 +1,5 @@
-Class 4
-##Process and Design##
+#Welcome to dAY 4!
+##Process and Design
 Ask yourself who, what, why and how when developing a site. 
 Who is visiting the site?
 1. Why are they visiting?
@@ -13,7 +13,7 @@ How often a person visits your site determines how often you should update your 
 ##Site Maps## allow you to plan a structure of a site. It is a simple diagram that shows how the site is laid out. This is where knowing the target audience comes in handy. Ensure your site map is organized as this will dictate how the user navigates the site. 
 ##Wire Frame## is a simple sketch to communicate how your site could look. When wiring framing do not include any colors or intricate designs. It is more important to get your ideas out of your head and onto *paper*.  
 
-##HTML&CSS Structure##
+##HTML&CSS Structure
 * HTML is the structure of a website. 
 * Some HTML elements include
 * HTML, begins the structure of the site
