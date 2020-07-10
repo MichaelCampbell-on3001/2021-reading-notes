@@ -15,8 +15,8 @@ How often a person visits your site determines how often you should update your 
 
 ##HTML&CSS Structure##
 HTML is the structure of a website. Some HTML elements include
-- (<HTML>), begins the structure of the site
-- <body>, this element opens the body of the site
+HTML, begins the structure of the site
+<body>, this element opens the body of the site
 - <h1>, or Header
 - <P>, or paragraph
 - </body> closes the body of the site.
