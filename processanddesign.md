@@ -1,4 +1,4 @@
-# Welcome to dAY 4!
+# Welcome to Day 4!
 
 ## Process and Design
 Ask yourself who, what, why and how when developing a site. 
