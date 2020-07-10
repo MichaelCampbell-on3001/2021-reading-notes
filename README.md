@@ -10,7 +10,9 @@ Hello, my name is **Michael**. This page contains my reading notes for my time a
 [Markdown](Markdown.md)
 
 
-Class 01 | Class 02 | Class 03
--------- | ---------|---------|
-[Growth Mindset](GrowthMindset.md)| [Tools and Terminal](tools-terminal.md) | [Rivisions and the Cloud](revisionsandthecloud.md)
+Class 01 | Class 02 | Class 03 | Class 04
+-------- | ---------|---------|---------|
+[Growth Mindset](GrowthMindset.md)| [Tools and Terminal](tools-terminal.md) | [Rivisions and the Cloud](revisionsandthecloud.md) | [Design and Process](designandprocess.md)
+
+
             
