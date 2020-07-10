@@ -14,15 +14,15 @@ How often a person visits your site determines how often you should update your 
 ##Wire Frame## is a simple sketch to communicate how your site could look. When wiring framing do not include any colors or intricate designs. It is more important to get your ideas out of your head and onto *paper*.  
 
 ##HTML&CSS Structure##
--HTML is the structure of a website. 
--Some HTML elements include
--HTML, begins the structure of the site
--body, this element opens the body of the site
--h1, or Header
--P, or paragraph
--/body closes the body of the site.
--/HTML, closes the structure of the site
--See page 31 of HTML & CSS by Jon Duckett to learn how to build a website on a mac.
+*HTML is the structure of a website. 
+*Some HTML elements include
+*HTML, begins the structure of the site
+*body, this element opens the body of the site
+*h1, or Header
+*P, or paragraph
+*/body closes the body of the site.
+*/HTML, closes the structure of the site
+*See page 31 of HTML & CSS by Jon Duckett to learn how to build a website on a mac.
 
 
  
