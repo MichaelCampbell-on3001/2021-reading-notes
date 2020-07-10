@@ -1,0 +1,26 @@
+Class 4
+##Process and Design##
+Ask yourself who, what, why and how when developing a site. 
+Who is visiting the site?
+1. Why are they visiting?
+1. What the visitor needs and what are they trying to achieve?
+1. As well as how often they visit the site.
+When developing for a client, it is important to narrow your target audience. Determine **who** your target audience is. Is your audience an individual or a company? If your target audience is an individual narrow your scope by determining a few more factors.  A few factors include occupation, geographoical location and gender. 
+If your target audience is a **company** determine its size and budget as well as their mission statement.
+As yourself, why would your audience want to go to your site and let that influence design and usability to attract and keep their attention.
+Create a list of reasons people should come to your site. What are their motivations to visit? Compile information you need to achieve this. Stay current with any information your audience may want to see. 
+How often a person visits your site determines how often you should update your information. Creating new content and having current information will encourage your audience to revisit. 
+##Site Maps## allow you to plan a structure of a site. It is a simple diagram that shows how the site is laid out. This is where knowing the target audience comes in handy. Ensure your site map is organized as this will dictate how the user navigates the site. 
+##Wire Frame## is a simple sketch to communicate how your site could look. When wiring framing do not include any colors or intricate designs. It is more important to get your ideas out of your head and onto *paper*.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
