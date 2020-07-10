@@ -15,7 +15,7 @@ How often a person visits your site determines how often you should update your 
 ##Wire Frame## is a simple sketch to communicate how your site could look. When wiring framing do not include any colors or intricate designs. It is more important to get your ideas out of your head and onto *paper*.  
 
 ## HTML&CSS Structure
-* <HTML> is the structure of a website. 
+* HTML is the structure of a website. 
 * Some HTML elements include
 * HTML, begins the structure of the site
 * body, this element opens the body of the site
