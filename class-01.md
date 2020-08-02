@@ -1,32 +1,32 @@
 # Prework reading
 ## Html chapter 1 structure:
 * __< HTML >__ is the structure of a website. Some HTML elements include
-* __&ltHTML&gt__, begins the structure of the site
-* __&ltbody&gt__, this tag and its closing tag indicate that everything in between them shows up in the browser window.
-* __&lth1&gt__, this is the main heading or Header
-* __&ltP&gt__, or paragraph this is text might be an introduction to the page. Sometimes on large pages this section may be split into different subheadings.
-* __&lt/body&gt__ closes the body of the site.
-* __&lt/HTML&gt__, closes the structure of the site
+* __HTML__, begins the structure of the site
+* __Body__, this tag and its closing tag indicate that everything in between them shows up in the browser window.
+* __H1__, this is the main heading or Header
+* __P__, or paragraph this is text might be an introduction to the page. Sometimes on large pages this section may be split into different subheadings.
+* __/body__ closes the body of the site.
+* __/HTML__, closes the structure of the site
  
 ## HTML chapter 8 “Extra Markup” (p. 176-199)
 * __Doctypes__ tell browsers what type of HTML you are using
-* You can add comments to your code between the __&lt!--and -- &gt__ markers.
-* The id and class attributes allow you to identify particular elements.
-* The __&lt div &gt __ and &lt span &gt elements allows you to group block-level and inline elements together. 
-* __&lt Iframes &gt__ cut windows through your web pages through which other pages can be displayed.
-* The __&lt meta &gt__ tag allows you to supply all kinds of information about your web page.
+* You can add comments to your code between the __!--and --__ markers.
+* The __id and class attributes__ allow you to identify particular elements.
+* The __div__ and &lt span &gt elements allows you to group block-level and inline elements together. 
+* __Iframes__ cut windows through your web pages through which other pages can be displayed.
+* The __meta__ tag allows you to supply all kinds of information about your web page.
 * __Escape characters__ are used to include special characters in your pages such as &lt,&gt,and &copy 
 ## HTML CHAPTER 17 PAGES 428-451
 * __HTML5__  elements indicate the purpose of the different parts of a web page and help describe the structure.
 * The elements provide clearer code 
 * Older browsers need to be told which elements are block level elements.
 * Extra Javascript is needed if the browser is very old
-* The __&lt Header and Footer &gt__ elements can be used for the top and bottom of the page _AND_ the top and bottom of a section of the web page.
-* The __&lt Nav &gt__ element is used to contain the major navigational blocks on the site such as primary navigation.
-*__&lt Articles &gt__ elements act as a container for any section of a page that could stand alone and potentially be syndicated.
-*__&lt Asides &gt__ have two purposes, depending on whether it is inside an article element or not. When it is inside an article it should contain information that is related to the article but not essential. When it is outside an article it acts as a container for content that is related to the entire page.
-*__&lt Sections &gt__ group related content together, typically each section would have its own heading.
-* The purpose of the __&lt hgroup &gt__ element is to group together one or more __&lt H1  &gt__through__&lt H6  &gt__ elements so they are treated as one. 
+* The __Header and Footer__ elements can be used for the top and bottom of the page _AND_ the top and bottom of a section of the web page.
+* The __Nav__ element is used to contain the major navigational blocks on the site such as primary navigation.
+*__Articles__ elements act as a container for any section of a page that could stand alone and potentially be syndicated.
+*__Asides__ have two purposes, depending on whether it is inside an article element or not. When it is inside an article it should contain information that is related to the article but not essential. When it is outside an article it acts as a container for content that is related to the entire page.
+*__Sections__ group related content together, typically each section would have its own heading.
+* The purpose of the __hgroup__ element is to group together one or more __H1__ through __H6__ elements so they are treated as one. 
 ## HTML CHAPTER 18 PAGES 452-475
 ## Process and Design
 Ask yourself who, what, why and how when developing a site. 
@@ -41,7 +41,7 @@ Create a list of reasons people should come to your site. What are their motivat
 How often a person visits your site determines how often you should update your information. Creating new content and having current information will encourage your audience to revisit. 
 _ Site Maps _ allow you to plan a structure of a site. It is a simple diagram that shows how the site is laid out. This is where knowing the target audience comes in handy. Ensure your site map is organized as this will dictate how the user navigates the site. 
 _Wire Frame_ is a simple sketch to communicate how your site could look. When wiring framing do not include any colors or intricate designs. It is more important to get your ideas out of your head and onto *paper*.  
-_JS chapter 1 Pages 11-52_
+## JS chapter 1 Pages 11-52
 _Javascript_: Scripts are a set of instructions. Scripts can run different sections of the code depending on the circumstance. To write a script you first want to state the purpose of the script and be specific. Break down the steps
 Define the goal, Design the script, code each step.Computers approach a problem in a very programmatic way, meaning they follow the set of instructions they are given whether they are right or wrong.
 Define the goal and design the script in a way a computer would understand. Be clear, include all necessary information and remember the end goal.
