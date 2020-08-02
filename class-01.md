@@ -1,6 +1,6 @@
 # Prework reading
 ## Html chapter 1 structure:
-* __&#60 HTML &#62__ is the structure of a website. Some HTML elements include
+* __< HTML >__ is the structure of a website. Some HTML elements include
 * __&ltHTML&gt__, begins the structure of the site
 * __&ltbody&gt__, this tag and its closing tag indicate that everything in between them shows up in the browser window.
 * __&lth1&gt__, this is the main heading or Header
