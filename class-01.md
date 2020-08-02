@@ -1,12 +1,12 @@
 # Prework reading
 ## Html chapter 1 structure:
-__&#60 HTML &#62__ is the structure of a website. Some HTML elements include
-*__&ltHTML&gt__, begins the structure of the site
-*__&ltbody&gt__, this tag and its closing tag indicate that everything in between them shows up in the browser window.
-*__&lth1&gt__, this is the main heading or Header
-*__&ltP&gt__, or paragraph this is text might be an introduction to the page. Sometimes on large pages this section may be split into different subheadings.
-*__&lt/body&gt__ closes the body of the site.
-*__&lt/HTML&gt__, closes the structure of the site
+* __&#60 HTML &#62__ is the structure of a website. Some HTML elements include
+* __&ltHTML&gt__, begins the structure of the site
+* __&ltbody&gt__, this tag and its closing tag indicate that everything in between them shows up in the browser window.
+* __&lth1&gt__, this is the main heading or Header
+* __&ltP&gt__, or paragraph this is text might be an introduction to the page. Sometimes on large pages this section may be split into different subheadings.
+* __&lt/body&gt__ closes the body of the site.
+* __&lt/HTML&gt__, closes the structure of the site
  
 ## HTML chapter 8 “Extra Markup” (p. 176-199)
 * __Doctypes__ tell browsers what type of HTML you are using
