@@ -7,7 +7,7 @@ You **must** use a *src* attribute to indicate the source of an image and an *al
 You should save images at the size you want to use them on the webpage and in the appropriate format.
 Photographs are best saved as *JPEGS*, *illustrations and *logos* that use flat colors are better saved as **GIFs**.
 
-###From the Duckett HTML book:
+### From the Duckett HTML book:
 ##### Chapter 11: “Color” (pp.246-263)
 
 **Color** not only brings your site to life, but also helps convey the mood and evokes reactions.
@@ -24,7 +24,7 @@ It is important to ensure that there is enough contrast between any text and the
 
 
 
-###From the Duckett HTML book:
+### From the Duckett HTML book:
 ##### Chapter 12: “Text” (pp.264-299)
 
 - There are *poperties* to control the choice of *font*, *size*, *weight*, *style* and *spacing*.
