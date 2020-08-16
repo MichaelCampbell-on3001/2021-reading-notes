@@ -10,7 +10,7 @@
 - For long tables you can split the table into a **thead**, **tbody** and **tfoot**
 
 ### From the Duckett JS Book:
-####Chapter 3: “Functions, Methods, and Objects” (pp.106-144)
+#### Chapter 3: “Functions, Methods, and Objects” (pp.106-144)
 
 - **Functions allows you to group a set of related statements together to represent a **single** task.
 - Functions can take **parameters** amd may return a **value**.
