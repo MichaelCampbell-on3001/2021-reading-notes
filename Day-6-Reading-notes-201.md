@@ -4,7 +4,7 @@
 **Objects** group together a set of **variables** and **functions** to create a model of something you would recognize from the real world. In an object, variables and functions take on new names.  
 A **JavaScript object literal** is a comma-separated list of name-value pairs wrapped in curly braces. **Object literals** encapsulate data, enclosing it in a tidy package.
 ### From the Duckett JS book
-####Chapter 5: “Document Object Model” (pp.183-242)
+#### Chapter 5: “Document Object Model” (pp.183-242)
 - The **browser** represents the page using a DOM tree.
 - **DOM trees** have four types of nodes: **document node**, **element nodes**, - **attribute nodes** and **text nodes**.
 - You can select **element** nodes byt their **id** or **class** attributes, by **tag name** or using CSS **selector** syntax.
