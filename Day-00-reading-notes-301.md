@@ -1,7 +1,7 @@
 301 prework reading:
 # Shay Howe’s intro to RWD
 ## Responsive Web Design
- https://learn.shayhowe.com/advanced-html-css/responsive-web-design/
+[Intro To RWD](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
 + With the growth in mobile Internet usage comes the question of how to build websites suitable for all users. + The industry response to this question has become responsive web design, also known as RWD.
 + Responsive web design is the practice of building a website suitable to work on every device and every screen size, no matter how large or small, mobile or desktop. + Responsive web design is focused around providing an intuitive and gratifying experience for everyone. + Desktop computer and cell phone users alike all benefit from responsive websites.
 + Responsive and adaptive web design are closely related, and often transposed as one in the same. + Responsive generally means to react quickly and positively to any change, while adaptive means to be easily modified for a new purpose or situation, such as change. 
@@ -36,7 +36,7 @@
 + Fortunately, there is a work around.
 
 # All About Floats
-[All about floats] (https://css-tricks.com/all-about-floats/)
+[All about floats](https://css-tricks.com/all-about-floats/)
 ### What is “Float”?
 **Float** is a CSS positioning property. 
 + To understand its purpose and origin, we can look to print design. 
@@ -51,9 +51,9 @@
 ### Alternatives
 + If you need text wrapping around images, there really aren’t any alternatives for float. Speaking of which, check out this rather clever technique for wrapping text around irregular shapes. + But for page layout, there definitely are choices. Eric Sol right here on A List Apart has an article on Faux Absolute Positioning, which is a very interesting technique that in many ways combines the flexibility of floats with the strength of absolute positioning. + CSS3 has the Template Layout Module that, when widely adopted, will prove to be the page layout technique of choice.
 # Don’t overthink Grid
-[Don’t overlink Grid] (https://css-tricks.com/dont-overthink-it-grids/)
+[Don’t overlink Grid](https://css-tricks.com/dont-overthink-it-grids/)
 + The vast majority of websites out there use a grid. They may not explicitly have a grid system in place, but if they have a “main content area” floated to the left a “sidebar” floated to the right, it’s a simple grid. + If a more complex layout presents itself, people often reach for a grid framework. + They assume grids are these super difficult things best left to super CSS nerds. That idea is perpetuated by the fact that a lot of the grid systems they reach for are very complicated.
- [CSS Floats Explained By Ridin An Escalator] (https://www.freecodecamp.org/news/css-floats-explained-by-riding-an-escalator-57fa55232333/)
+ [CSS Floats Explained By Ridin An Escalator](https://www.freecodecamp.org/news/css-floats-explained-by-riding-an-escalator-57fa55232333/)
 # SMACCS
 [SMACCS](http://smacss.com/)
 + SMACSS (pronounced “smacks”) is more style guide than rigid framework. There is no library within here for you to download or install. + There is no git repository for you to clone. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS. + And really, who isn’t building a site with CSS these days?!
