@@ -55,5 +55,5 @@
 + The vast majority of websites out there use a grid. They may not explicitly have a grid system in place, but if they have a “main content area” floated to the left a “sidebar” floated to the right, it’s a simple grid. + If a more complex layout presents itself, people often reach for a grid framework. + They assume grids are these super difficult things best left to super CSS nerds. That idea is perpetuated by the fact that a lot of the grid systems they reach for are very complicated.
  [CSS Floats Explained By Ridin An Escalator] (https://www.freecodecamp.org/news/css-floats-explained-by-riding-an-escalator-57fa55232333/)
 # SMACCS
-[SMACCS] (http://smacss.com/)
+[SMACCS](http://smacss.com/)
 + SMACSS (pronounced “smacks”) is more style guide than rigid framework. There is no library within here for you to download or install. + There is no git repository for you to clone. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS. + And really, who isn’t building a site with CSS these days?!
