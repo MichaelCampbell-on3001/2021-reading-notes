@@ -51,7 +51,7 @@
 ### Alternatives
 + If you need text wrapping around images, there really aren’t any alternatives for float. Speaking of which, check out this rather clever technique for wrapping text around irregular shapes. + But for page layout, there definitely are choices. Eric Sol right here on A List Apart has an article on Faux Absolute Positioning, which is a very interesting technique that in many ways combines the flexibility of floats with the strength of absolute positioning. + CSS3 has the Template Layout Module that, when widely adopted, will prove to be the page layout technique of choice.
 # Don’t overthink Grid
-[Don’t overlink Grid](https://css-tricks.com/dont-overthink-it-grids/)
+[Don’t overthink Grid](https://css-tricks.com/dont-overthink-it-grids/)
 + The vast majority of websites out there use a grid. They may not explicitly have a grid system in place, but if they have a “main content area” floated to the left a “sidebar” floated to the right, it’s a simple grid. + If a more complex layout presents itself, people often reach for a grid framework. + They assume grids are these super difficult things best left to super CSS nerds. That idea is perpetuated by the fact that a lot of the grid systems they reach for are very complicated.
  [CSS Floats Explained By Ridin An Escalator](https://www.freecodecamp.org/news/css-floats-explained-by-riding-an-escalator-57fa55232333/)
 # SMACCS
