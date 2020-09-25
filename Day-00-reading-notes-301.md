@@ -1,6 +1,6 @@
-301 prework reading:
-# Shay Howe’s intro to RWD
-## Responsive Web Design
+# 301 prework reading:
+## Shay Howe’s intro to RWD
+### Responsive Web Design
  https://learn.shayhowe.com/advanced-html-css/responsive-web-design/
 + With the growth in mobile Internet usage comes the question of how to build websites suitable for all users. + The industry response to this question has become responsive web design, also known as RWD.
 + Responsive web design is the practice of building a website suitable to work on every device and every screen size, no matter how large or small, mobile or desktop. + Responsive web design is focused around providing an intuitive and gratifying experience for everyone. + Desktop computer and cell phone users alike all benefit from responsive websites.
@@ -15,13 +15,13 @@
 + Let’s see how this formula works inside of a two column layout. Below we have a parent division with the class of container wrapping both the section and aside elements. The goal is to have have the section on the left and the aside on the right, with equal margins between the two. + Normally the markup and styles for this layout would look a bit like the following.
 + CSS3 introduced some new relative length units, specifically related to the viewport size of the browser or device. These new units include vw, vh, vmin, and vmax. + Overall support for these new units isn’t great, but it is growing. In time they look to play a large roll in building responsive websites.
 
-#### vw
+### vw
 + Viewports widthvh
 + Viewports heightvmin
 + Minimum of the viewport’s height and widthvmax
 + Maximum of the viewport’s height and width
 
-#### Media Queries
+### Media Queries
 + Media queries were built as an extension to media types commonly found when targeting and including styles. 
 + Media queries provide the ability to specify different styles for individual browser and device circumstances, the width of the viewport or device orientation for example. 
 + Being able to apply uniquely targeted styles opens up a world of opportunity and leverage to responsive web design.
