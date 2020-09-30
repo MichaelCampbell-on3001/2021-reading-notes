@@ -65,7 +65,7 @@ Many companies that utilize pair programing expect to train fresh hires from CS-
 1. Attribute Filters
 1. Form
 
-###Doing Things with your selection
+### Doing Things with your selection
 + Once you have selected the elements you want to work with (and they are in a jQuery methods listed on thse two pages perform tasks on those elements.
 
 1. Content Filters
