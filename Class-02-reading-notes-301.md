@@ -29,6 +29,7 @@ work across all browsers.
 ## 6 Reasons for Pair Programming
 **1. Greater efficiency**
 Research indicates that pair programing takes slightly longer, but produces higher-quality code that doesn’t require later effort in troubleshooting and debugging (let alone exposing users to a broken product). So, in the long-run, it’s often actually more efficient than two people working on separate features. 
+
 **2. Engaged collaboration**
 When two programmers focus on the same code, the experience is more engaging and both programmers are more focused than if they were working alone. It is harder to procrastinate or get off track when someone else is relying on you to complete the work. Another important aspect of learning to program is knowing when to ask for help. 
 
