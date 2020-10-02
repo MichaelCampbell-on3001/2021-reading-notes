@@ -15,8 +15,13 @@
 
 Some tags are replaced with a value, some nothing, and others a series of values.
 It is also considered the base for JavaScript templating. And, since mustache supports various languages, we don’t need a separate templating system on the server side.
-| Example        | 
-| ------------- |
-| Mustache.render(“Hello, {{name}}”, { name: “Sherlynn” });                                                             // returns: Hello, Sherlynn     | 
+                                                   
+                                                   
 
+## A Guide to Flexbox 
+**Properties for the Parent (flex container)**
+**Display**defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.
+|| .container {
+  display: flex; /* or inline-flex */
+} ||
 
