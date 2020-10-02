@@ -15,4 +15,8 @@
 
 Some tags are replaced with a value, some nothing, and others a series of values.
 It is also considered the base for JavaScript templating. And, since mustache supports various languages, we don’t need a separate templating system on the server side.
+| Example        | 
+| ------------- |
+| Mustache.render(“Hello, {{name}}”, { name: “Sherlynn” });                                                             // returns: Hello, Sherlynn     | 
+
 
