@@ -27,7 +27,9 @@ It is also considered the base for JavaScript templating. And, since mustache su
 ---
 
 .container {
+
   display: flex; /*or inline-flex*/
+  
 }
 
 ---
