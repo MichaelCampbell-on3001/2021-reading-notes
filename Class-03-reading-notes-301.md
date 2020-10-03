@@ -1,4 +1,4 @@
-#Reading 03
+# Reading 03
 ### 7 Uses of Markdown used in this document =
 1. "##HEADERS"
 1. "**bold**"
