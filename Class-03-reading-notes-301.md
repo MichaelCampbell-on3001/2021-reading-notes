@@ -31,6 +31,7 @@ Mustache is **NOT** a templating engine. Mustache is **a specification for a tem
   display: flex; /* or inline-flex */
   
 }
+
 ---
 
 **Flex-direction** the *four* possible values of flex-direction being shown: **top to bottom, bottom to top, right to left, and left to right**
@@ -44,6 +45,7 @@ This establishes the main-axis, thus defining the direction flex items are place
   flex-direction: row | row-reverse | column | column-reverse;
   
 } 
+
 ---
 
 + **row (default)**: left to right in ltr; right to left in rtl
@@ -52,29 +54,46 @@ This establishes the main-axis, thus defining the direction flex items are place
 + **column-reverse**: same as row-reverse but bottom to top
 **Flex-wrap** two rows of boxes, the first wrapping down onto the second
 By **default**, flex items will all try to fit onto one line. You can **change** that and allow the items to wrap as needed with this property.
+
 ---
+
 .container {
+
   flex-wrap: nowrap | wrap | wrap-reverse;
+  
 }
+
 ---
+
 + **nowrap** (default): all flex items will be on one line
 + **wrap**: flex items will wrap onto multiple lines, from top to bottom. 
 + **wrap-reverse**: flex items will wrap onto multiple lines from bottom to top.
 **flex-flow** This is a shorthand for the flex-direction and flex-wrap properties, which together define the flex container’s main and cross axes. The default value is row nowrap.
+
 ---
+
 .container {
+
   flex-flow: column wrap;
+  
 }
-___
+
+---
+
 **justify-content** flex items within a flex container demonstrating the different spacing options
 
 This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.
 
 ---
+
 .container {
+
   justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+  
 }
+
 ---
+
 + **flex-start** (default): items are packed toward the start of the flex-direction.
 +**flex-end**: items are packed toward the end of the flex-direction.
 + **start**: items are packed toward the start of the writing-mode direction.
@@ -90,10 +109,14 @@ This defines the alignment along the main axis. It helps distribute extra free s
 This defines the default behavior for how flex items are laid out along the cross axis on the current line. Think of it as the justify-content version for the cross-axis (perpendicular to the main-axis).
 
 ---
+
 .container {
   align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+  
 }
+
 ---
+
 + **stretch (default)**: stretch to fill the container (still respect min-width/max-width)
 + **flex-start / start / self-start**: items are placed at the start of the cross axis. The difference between these is subtle, and is about respecting the flex-direction rules or the writing-mode rules.
 + **flex-end / end / self-end**: items are placed at the end of the cross axis. The difference again is subtle and is about respecting flex-direction rules vs. writing-mode rules.
@@ -104,9 +127,13 @@ The **safe and unsafe** modifier keywords can be used in *conjunction* with all 
 This aligns a flex container’s lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis. **Note:** this property has no effect when there is only one line of flex items.
 
 ---
+
 .container {
+
   align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+  
 }
+
 ---
 
 + **normal** (default): items are packed in their default position as if no value was set.
@@ -121,9 +148,13 @@ This aligns a flex container’s lines within when there is extra space in the c
 **order** By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in the flex container.
 
 ---
+
 .item {
+
   order: 5; /* default is 0 */
+  
 }
+
 ---
 
 **flex-grow** two rows of items, the first has all equally-sized items with equal flex-grow numbers, the second with the center item at twice the width because its value is 2 instead of 1.
@@ -132,38 +163,62 @@ If all items have flex-grow set to 1, the remaining space in the container will 
 
 ---
 .item {
+
   flex-grow: 4; /* default 0 */
+  
 }
+
 ---
+
 **Negative numbers are invalid.**
 **flex-shrink** This defines the ability for a flex item to shrink if necessary.
 
 ---
+
 .item {
+
   flex-shrink: 3; /* default 1 */
+  
 }
+
 ---
+
 **Negative numbers are invalid.**
 **flex-basis** This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means “look at my width or height property” (which was temporarily done by the main-size keyword until deprecated). 
 
 The content keyword means “size it based on the item’s content” – this keyword isn’t well supported yet, so it’s hard to test and harder to know what its brethren max-content, min-content, and fit-content do.
 
 ---
+
 .item {
+
   flex-basis:  | auto; /* default auto */
 }
+
 ---
+
 **flex** This is the **shorthand for flex-grow, flex-shrink and flex-basis combined**. The second and third parameters (flex-shrink and flex-basis) are optional. The default is 0 1 auto, but if you set it with a single number value, it’s like 1 0.
 
 ---
+
 .item {
+
   flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+  
 }
+
 ---
+
 **align-self** One item with a align-self value is positioned along the bottom of a flex parent instead of the top where all the rest of the items are. This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.
+
 ---
+
 .item {
+
   align-self: auto | flex-start | flex-end | center | baseline | stretch;
+  
 }
+
 ---
+
 
