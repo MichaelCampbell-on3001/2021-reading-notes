@@ -226,6 +226,6 @@ The content keyword means “size it based on the item’s content” – this k
 The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of one of the two properties separated by a space.
 ** Screenshot of completed tutorial”
 
-![tutorialt](https://flexboxfroggy.com/)
+![tutorial](https://flexboxfroggy.com/)
 
 
