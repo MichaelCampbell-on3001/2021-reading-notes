@@ -52,7 +52,9 @@ By **default**, flex items will all try to fit onto one line. You can **change**
 }
 ___
 **justify-content** flex items within a flex container demonstrating the different spacing options
+
 This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.
+
 ---
 .container {
   justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
@@ -71,6 +73,7 @@ This defines the alignment along the main axis. It helps distribute extra free s
 
 **align-items** demonstration of different alignment options, like all boxes stuck to the top of a flex parent, the bottom, stretched out, or along a baseline
 This defines the default behavior for how flex items are laid out along the cross axis on the current line. Think of it as the justify-content version for the cross-axis (perpendicular to the main-axis).
+
 ---
 .container {
   align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
@@ -84,6 +87,7 @@ This defines the default behavior for how flex items are laid out along the cros
 The **safe and unsafe** modifier keywords can be used in *conjunction* with all the rest of these keywords (although note browser support), and deal with helping you prevent aligning elements such that the content becomes *inaccessible*.
 **align-content** examples of the align-content property where a group of items cluster at the top or bottom, or stretch out to fill the space, or have spacing.
 This aligns a flex container’s lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis. **Note:** this property has no effect when there is only one line of flex items.
+
 ---
 .container {
   align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
@@ -100,6 +104,7 @@ This aligns a flex container’s lines within when there is extra space in the c
 **stretch**: lines stretch to take up the remaining space
 ### Properties for the Children (flex items)
 **order** By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in the flex container.
+
 ---
 .item {
   order: 5; /* default is 0 */
@@ -109,6 +114,7 @@ This aligns a flex container’s lines within when there is extra space in the c
 **flex-grow** two rows of items, the first has all equally-sized items with equal flex-grow numbers, the second with the center item at twice the width because its value is 2 instead of 1.
 This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.
 If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children. If one of the children has a value of 2, the remaining space would take up twice as much space as the others (or it will try to, at least).
+
 ---
 .item {
   flex-grow: 4; /* default 0 */
@@ -116,6 +122,7 @@ If all items have flex-grow set to 1, the remaining space in the container will 
 ---
 **Negative numbers are invalid.**
 **flex-shrink** This defines the ability for a flex item to shrink if necessary.
+
 ---
 .item {
   flex-shrink: 3; /* default 1 */
@@ -125,6 +132,7 @@ If all items have flex-grow set to 1, the remaining space in the container will 
 **flex-basis** This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means “look at my width or height property” (which was temporarily done by the main-size keyword until deprecated). 
 
 The content keyword means “size it based on the item’s content” – this keyword isn’t well supported yet, so it’s hard to test and harder to know what its brethren max-content, min-content, and fit-content do.
+
 ---
 .item {
   flex-basis:  | auto; /* default auto */
