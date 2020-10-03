@@ -23,14 +23,25 @@ Mustache is **NOT** a templating engine. Mustache is **a specification for a tem
 ## A Guide to Flexbox 
 ### Properties for the Parent (flex container)
 **Display**defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.
---- || .container {
+
+---
+
+.container {
+
   display: flex; /* or inline-flex */
-} | ---
+  
+}
+
+---
+
 **Flex-direction** the *four* possible values of flex-direction being shown: **top to bottom, bottom to top, right to left, and left to right**
 This establishes the main-axis, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out either in horizontal rows or vertical columns.
 --- .container {
+
   flex-direction: row | row-reverse | column | column-reverse;
+  
 } ---
+
 + **row (default)**: left to right in ltr; right to left in rtl
 + **row-reverse**: right to left in ltr; left to right in rtl
 + **column**: same as row but top to bottom
