@@ -22,7 +22,7 @@ In the **above**, we see *two braces* around **{{ name }}**. This is Mustache sy
 Mustache is **NOT** a templating engine. Mustache is **a specification for a templating language**. In general, we would write templates according to the Mustache specification, and it can then be *compiled* by a templating engine to be rendered to create an output.
 ## A Guide to Flexbox 
 ### Properties for the Parent (flex container)
-**Display**defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.
+**Display** defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.
 
 ---
 
@@ -31,16 +31,20 @@ Mustache is **NOT** a templating engine. Mustache is **a specification for a tem
   display: flex; /* or inline-flex */
   
 }
-
 ---
 
 **Flex-direction** the *four* possible values of flex-direction being shown: **top to bottom, bottom to top, right to left, and left to right**
 This establishes the main-axis, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out either in horizontal rows or vertical columns.
---- .container {
+
+--- 
+
+.container {
+
 
   flex-direction: row | row-reverse | column | column-reverse;
   
-} ---
+} 
+---
 
 + **row (default)**: left to right in ltr; right to left in rtl
 + **row-reverse**: right to left in ltr; left to right in rtl
