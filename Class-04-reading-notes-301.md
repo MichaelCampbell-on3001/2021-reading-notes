@@ -17,6 +17,6 @@ CSS Grid Layout (aka “Grid”), is a two-dimensional grid-based layout system 
 To get started you have to define a container element as a grid with display: grid, set the column and row sizes with grid-template-columns and grid-template-rows, and then place its child elements into the grid with grid-column and grid-row.
 **Grid Container**: The element on which display: grid is applied. It’s the direct parent of all the grid items. In this example container is the grid container.
 **Grid Item**: The children (i.e. direct descendants) of the grid container. Here the item elements are grid items, but sub-item isn’t.
-Here is a link to a great article about CSS grid: [Responsive design with CSS Grid](https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df)
++ Here is a link to a great article about CSS grid: [Responsive design with CSS Grid](https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df)
 
 ### CSS Grid Garden: Completed all steps of this tutorial
