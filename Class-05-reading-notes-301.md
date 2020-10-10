@@ -1,15 +1,15 @@
-#Read: 05 - Heroku Deployment
+# Read: 05 - Heroku Deployment
 
-###7 Uses of Markdown used in this document =
+### 6 Uses of Markdown used in this document =
 1. "##HEADERS"
 1. "**bold**"
 1. "+" unordered list
 1. "1." numbered list
-1. "[title](https://www.example.com)" link
+1. "[title](https://www.example.com)" links
 1. *Italics*
-1. ![alt text](image.jpg)
 
-##Getting Started on Heroku with Node.js
+
+## Getting Started on Heroku with Node.js
 **Step one:** setup up an account at [Heroku](https://signup.heroku.com/account)
 **Step Two:** Install the Heroku Command Line Interface (CLI). You use the CLI to manage and scale your applications, provision add-ons, view your application logs, and run your application locally.
 **Step Three:** When installation completes, you can use the heroku command from your terminal. Use the *heroku login* command to log in to the Heroku CLI:
