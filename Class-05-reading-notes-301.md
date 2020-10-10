@@ -11,11 +11,14 @@
 
 ## Getting Started on Heroku with Node.js
 **Step one:** setup up an account at [Heroku](https://signup.heroku.com/account)
+
 **Step Two:** Install the Heroku Command Line Interface (CLI). You use the CLI to manage and scale your applications, provision add-ons, view your application logs, and run your application locally.
+
 **Step Three:** When installation completes, you can use the heroku command from your terminal. Use the *heroku login* command to log in to the Heroku CLI:
 + This command opens your web browser to the Heroku login page. 
 + If your browser is already logged in to Heroku, simply click the Log in button displayed on the page. 
 + This authentication is required for both the heroku and git commands to work correctly.
+
 A great way to , check that you have the prerequisites installed properly is to run a series of tests.
 
 
