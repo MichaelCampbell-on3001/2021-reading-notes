@@ -54,14 +54,14 @@ Node’s *execution model* causes the server very little overhead, and consequen
 
 ![Node Execution Model](https://uploads.sitepoint.com/wp-content/uploads/2012/10/1516152673node_event_loop.png)
 
-###What Kind of Apps Is Node.js Suited To?
+### What Kind of Apps Is Node.js Suited To?
 
 Node is particularly suited to building applications that require some form of *real-time interaction or collaboration* — for example, **chat sites, or apps**. 
 It’s also a good fit for:
 + building APIs where you’re handling lots of requests that are I/O driven (such as those needing to perform operations on a database), 
 + for sites involving data streaming, as Node makes it possible to process files while they’re still being uploaded.
 
-###What Are the Advantages of Node.js?
+### What Are the Advantages of Node.js?
 
 Aside from *speed and scalability*, an often-touted advantage of using JavaScript on a web server — as well as in the browser — is that **your brain no longer needs to switch modes**. You can do everything in the **same language**, which, as a developer, makes you more productive (and hopefully, happier). For example, you can easily share code between the server and the client.
 
