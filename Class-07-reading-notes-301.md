@@ -15,7 +15,8 @@ Bookmark/Skim
 
 ### Documentation for SuperAgent
 **SuperAgent** is light-weight progressive **ajax API** crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js!
-`request
+
+   `request
 
    .post('/api/pet')
    
