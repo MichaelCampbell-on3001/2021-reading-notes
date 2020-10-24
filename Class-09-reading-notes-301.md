@@ -30,30 +30,41 @@ calculateArea(10, PI); // returns 314.0
 **Random number generation**
 + Any function that relies on a random number generator cannot be pure.
 + It does not cause any observable side effects
+
 **Examples of observable side effects** include modifying a global object or a parameter passed by reference.
+
 **Observation**: *mutability* is discouraged in functional programming.
 Below we are modifying the global object. But how would we make it pure? Just return the value increased by 1.
-`let counter = 1;
+```
+let counter = 1;
 const increaseCounter = (value) => value + 1;
 increaseCounter(counter); // 2
-console.log(counter); // 1`
+console.log(counter); // 1
+```
+
 **Pure functions benefits** - The code’s definitely easier to test. We don’t need to mock anything. So we can unit test pure functions with different contexts:
 + Given a parameter A → expect the function to return value B
 + Given a parameter C → expect the function to return value D
 An example would be a function to receive a collection of numbers and expect it to increment each element of this collection.
-`let list = [1, 2, 3, 4, 5];
+
+```
+let list = [1, 2, 3, 4, 5];
 const incrementNumbers = (list) => list.map(number => number + 1);`
 Receive the numbers array, use map incrementing each number, and return a new list of incremented numbers.
-`incrementNumbers(list); // [2, 3, 4, 5, 6]`
+`incrementNumbers(list); // [2, 3, 4, 5, 6]
+```
+
 *For the input [1, 2, 3, 4, 5], the expected output would be [2, 3, 4, 5, 6].*
 **Immutability**: Unchanging over time or unable to be changed.
 When data is *immutable*, its state cannot change after it’s created. If you want to change an immutable object, you can’t. Instead, you create a new object with the new value. In **Javascript** we commonly use the for loop. This next for statement has some mutable variables.
-`var values = [1, 2, 3, 4, 5];
+```
+var values = [1, 2, 3, 4, 5];
 var sumOfValues = 0;
 for (var i = 0; i < values.length; i++) {
   sumOfValues += values[i];
 }
-sumOfValues // 15`
+sumOfValues // 15
+```
 
 ### functions as first-class entities
 
@@ -64,42 +75,54 @@ Functions as first-class entities can:
 + return it as result from other functions
 The idea is to treat functions as values and pass functions like data. This way we can combine different functions to create new functions with new behavior.
 Imagine we have a function that sums two values and then doubles the value. Something like this:
-`const doubleSum = (a, b) => (a + b) * 2;`
+```
+const doubleSum = (a, b) => (a + b) * 2;
+```
 Now a function that subtracts values and the returns the double:
-`const doubleSubtraction = (a, b) => (a - b) * 2;`
+```
+const doubleSubtraction = (a, b) => (a - b) * 2;
+```
 These functions have similar *logic*, but the difference is the operators functions. If we can treat functions as values and pass these as arguments, we can build a function that receives the operator function and use it inside our function. 
-`const sum = (a, b) => a + b;
+```
+const sum = (a, b) => a + b;
 const subtraction = (a, b) => a - b;
 
 const doubleOperator = (f, a, b) => f(a, b) * 2;
 doubleOperator(sum, 3, 1); // 8
-doubleOperator(subtraction, 3, 1); // 4`
+doubleOperator(subtraction, 3, 1); // 4
+```
+
 ### Higher-order functions
 When we talk about higher-order functions, we mean a function that either:
 + takes one or more functions as arguments, or
 + returns a function as its result
+
 The **doubleOperator function** we implemented above is a *higher-order* function because it takes an operator function as an argument and uses it.
+
 ### Filter
 A simple example is when we have a collection of integers and we want only the even numbers.
+
 **Imperative approach** 
 An *imperative way* to do it with Javascript is to:
 + create an empty array evenNumbers
 + iterate over the numbers array
-
 + push the even numbers to the evenNumbers array
-`var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```
+var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var evenNumbers = [];
 for (var i = 0; i < numbers.length; i++) {
   if (numbers[i] % 2 == 0) {
     evenNumbers.push(numbers[i]);
   }
 }
-console.log(evenNumbers); // (6) [0, 2, 4, 6, 8, 10]`
+console.log(evenNumbers); // (6) [0, 2, 4, 6, 8, 10]
+```
 
 ### Map
 The map method transforms a collection by applying a function to all of its elements and building a new collection from the returned values.
 Let’s get the same people collection above. We don't want to filter by “over age” now. We just want a list of strings, something like TK is 26 years old. So the final string might be :name is :age years old where :name and :age are attributes from each element in the people collection.
-`var people = [
+```
+var people = [
   { name: "TK", age: 26 },
   { name: "Kaio", age: 10 },
   { name: "Kazumi", age: 30 }
@@ -114,23 +137,27 @@ In a **declarative Javascript** way, it would be:
 `const makeSentence = (person) => `${person.name} is ${person.age} years old`;
 const peopleSentences = (people) => people.map(makeSentence);
   peopleSentences(people);
-// ['TK is 26 years old', 'Kaio is 10 years old', 'Kazumi is 30 years old']`
+// ['TK is 26 years old', 'Kaio is 10 years old', 'Kazumi is 30 years old']
+```
 
 **Another Example** 
 The input [1, 2, 3, -4, 5]needs the output to be [1, 2, 3, 4, 5]. The absolute value of -4 is 4.
 A simple solution would be an in-place update for each collection value.
-`var values = [1, 2, 3, -4, 5];
+```
+var values = [1, 2, 3, -4, 5];
 for (var i = 0; i < values.length; i++) {
   values[i] = Math.abs(values[i]);
 }
-console.log(values); // [1, 2, 3, 4, 5]`
+console.log(values); // [1, 2, 3, 4, 5]
+```
 
 **Reduce**
 The idea of reduce is to receive a function and a collection, and return a value created by combining the items.
 A common example people talk about is to get the total amount of an order. Imagine you were at a shopping website. You’ve added Product 1, Product 2, Product 3, and Product 4 to your shopping cart (order). Now we want to calculate the total amount of the shopping cart.
 Using reduce, we can build a function to handle the amount sum and pass it as an argument to the reduce function.
 
-`let shoppingCart = [
+```
+let shoppingCart = [
   { productTitle: "Product 1", amount: 10 },
   { productTitle: "Product 2", amount: 30 },
   { productTitle: "Product 3", amount: 20 },
@@ -138,12 +165,16 @@ Using reduce, we can build a function to handle the amount sum and pass it as an
 ];
 const sumAmount = (currentTotalAmount, order) => currentTotalAmount + order.amount;
 const getTotalAmount = (shoppingCart) => shoppingCart.reduce(sumAmount, 0);
-getTotalAmount(shoppingCart); // 120`
+getTotalAmount(shoppingCart); // 120
+```
+
 We want the total amount of all books in our shopping cart. Simple as that. 
 + filter by book type
 + transform the shopping cart into a collection of amount using map
 + combine all items by adding them up with reduce
-`let shoppingCart = [
+
+```
+  let shoppingCart = [
   { productTitle: "Functional Programming", type: "books", amount: 10 },
   { productTitle: "Kindle", type: "eletronics", amount: 30 },
   { productTitle: "Shoes", type: "fashion", amount: 20 },
@@ -158,14 +189,18 @@ function getTotalAmount(shoppingCart) {
     .map(getAmount)
     .reduce(sumAmount, 0);
 }
-getTotalAmount(shoppingCart); // 70`
+getTotalAmount(shoppingCart); // 70
+```
 
 Refactoring JavaScript for Performance and Readability (with Examples!)
+
 ### Scenario 1
+
 > We're an URL-shortening website, like TinyURL. We accept a long URL and return a short URL that forwards visitors to the long URL. We have two functions.
 // Unrefactored code
 
-`const URLstore = [];
+```
+const URLstore = [];
 function makeShort(URL) {
   const rndName = Math.random().toString(36).substring(2);
   URLstore.push({[rndName]: URL});
@@ -177,9 +212,12 @@ function getLong(shortURL) {
       return URLstore[i][shortURL];
     }
   }
-}`
+}
+```
 
-`// Refactored code
+
+```
+// Refactored code
 
 const URLstore = new Map(); // Change this to a Map
 
@@ -196,12 +234,15 @@ function getLong(shortURL) {
     throw 'Not in URLstore!';
   }
   return URLstore.get(shortURL); // Get the long URL out of the Map
-}`
+}
+```
+
 ### Scenario 2
 > We're a social media website where user URLs are generated randomly. Instead of random gibberish, we're going to use the friendly-words package that the Glitch team works on. They use this to generate the random names for your recently created projects!
 // Unrefactored code
 
-`const friendlyWords = require('friendly-words');
+```
+const friendlyWords = require('friendly-words');
 
 function randomPredicate() {
   const choice = Math.floor(Math.random() * friendlyWords.predicates.length);
@@ -218,9 +259,11 @@ async function createUser(email) {
   user.url = randomPredicate() + randomObject() + randomObject();
   await db.insert(user, 'Users')
   sendWelcomeEmail(user);
-}`
+}
+```
 
-`// Refactored code
+```
+// Refactored code
 
 const friendlyWords = require('friendly-words');
 
@@ -237,3 +280,4 @@ async function createUser(email) {
   await db.insert(user, 'Users')
   sendWelcomeEmail(user);
 }`
+```
