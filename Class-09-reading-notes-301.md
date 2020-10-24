@@ -12,11 +12,13 @@ What is a *pure* function?
 + It does not cause any observable side effects.
 
 **EXAMPLE OF A PURE FUNCTION**
-`let PI = 3.14;
+```
+let PI = 3.14;
 
 const calculateArea = (radius, pi) => radius * radius * pi;
 
-calculateArea(10, PI); // returns 314.0`
+calculateArea(10, PI); // returns 314.0
+```
 
 + For the parameters radius = 10 & PI = 3.14, we will always have the same the result: 314.0
 + For the parameters radius = 10 & PI = 42, we will always have the same the result: 4200
