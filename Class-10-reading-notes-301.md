@@ -65,7 +65,9 @@ Basically, we start with an empty Call Stack. Whenever we invoke a function, it 
 + The **call stack** is primarily used for **function invocation (call)**. Since the call stack is single, function(s) execution, is done, *one at a time*, from top to bottom. It means the call stack is *synchronous*.
 + In **Asynchronous JavaScript**, we have a *callback function, an event loop, and a task queue*. The callback function is acted upon by the call stack during execution after the call back function has been pushed to the stack by the event loop.
 + **Temporarily store**: When a function is *invoked (called)*, the function, its parameters, and variables are **pushed** into the call stack to form a **stack frame**. This stack frame is a memory location in the stack. The memory is cleared when the function returns as it is popped out of the stack.
+
  ![Temporarily store](https://cdn-media-1.freecodecamp.org/images/QgR2uIk7tW0YNz0Xm8g0jAPeRFI0e4sCejsv)
+ 
 **What causes a stack overflow?**
 + A **stack overflow** occurs when there is a *recursive function (a function that calls itself)* without an exit point. The *browser (hosting environment)* has a **maximum stack call** that it can accomodate before throwing a *stack error*.
 ``` javascript
