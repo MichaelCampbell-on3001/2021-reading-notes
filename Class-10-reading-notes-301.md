@@ -2,7 +2,7 @@
 
 
 
-### {The Call Stack defined on MDN} (https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
+### [The Call Stack defined on MDN](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
 A **call stack** is a *mechanism for an interpreter* (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function, etc.
 + When a script calls a function, the interpreter adds it to the call stack and then starts carrying out the function.
 + Any functions that are called by that function are added to the call stack further up, and run where their calls are reached.
@@ -57,7 +57,7 @@ Call stack list:
 EMPTY
 ``
 Basically, we start with an empty Call Stack. Whenever we invoke a function, it is automatically added to the Call Stack. Once the function has executed all of its code, it is automatically removed from the Call Stack. Ultimately, the Stack is empty again.
-### {Understanding the JavaScript Call Stack}(https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/)
+### [Understanding the JavaScript Call Stack](https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/)
 
 #### The JavaScript Call Stack - What It Is and Why It's Necessary by Charles Freeborn
 + The browser provides web APIs like the DOM, AJAX, and Timers.
@@ -82,7 +82,7 @@ callMyself();
 2. Code execution is synchronous.
 3. A function invocation creates a stack frame that occupies a temporary memory.
 4. It works as a LIFO — Last In, First Out data structure.
-### {JavaScript error messages}(https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c)
+### [JavaScript error messages](https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c)
 **Types of error messages**
 + **Reference errors**: This is as simple as when you try to use a variable that is not yet declared you get this type of error.
 + **Syntax errors**: I know it’s in the name of the errors, but like it says itself, this occurs when you have something that cannot be parsed in terms of syntax, like when you try to parse an invalid object using JSON.parse.
