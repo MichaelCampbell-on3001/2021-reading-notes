@@ -1,15 +1,8 @@
 ## Read: 10 - The Call Stack and Debugging
 
-### 7 Uses of Markdown used in this document =
-1. "##HEADERS"
-1. "**bold**"
-1. "+" unordered list
-1. "1." numbered list
-1. "[title](https://www.example.com)" link
-1. *Italics*
-1. |Tables | 
 
-### {The Call Stack defined on MDN}(https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
+
+### {The Call Stack defined on MDN} (https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
 A **call stack** is a *mechanism for an interpreter* (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function, etc.
 + When a script calls a function, the interpreter adds it to the call stack and then starts carrying out the function.
 + Any functions that are called by that function are added to the call stack further up, and run where their calls are reached.
