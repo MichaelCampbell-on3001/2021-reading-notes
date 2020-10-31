@@ -70,13 +70,13 @@ Benefits of EJS:
 
 #### To get started using EJS
 
-1.Install EJS with NPM
+1. Install EJS with NPM
 
 ```
 $ npm install ejs
 ```
 
-1.Pass EJS a template string and some data. BOOM, you've got some HTML.
+1. Pass EJS a template string and some data. BOOM, you've got some HTML.
 
 
 ```
@@ -88,14 +88,14 @@ let html = ejs.render('<%= people.join(", "); %>', {people: people});
 ```
 
 
-1.**CLI**: Feed it a template file and a data file, and specify an output file.
+1. **CLI**: Feed it a template file and a data file, and specify an output file.
 
 
 `
 ejs ./template_file.ejs -f data_file.json -o ./output.html
 `
 
-1.**Download** a browser build from the latest release, and use it in a script tag.
+1. **Download** a browser build from the latest release, and use it in a script tag.
 
 
 
