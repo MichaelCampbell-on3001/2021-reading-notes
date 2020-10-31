@@ -72,9 +72,9 @@ Benefits of EJS:
 
 1. Install EJS with NPM
 
-`
+```
 $ npm install ejs
-`
+```
 
 1. Pass EJS a template string and some data. BOOM, you've got some HTML.
 
