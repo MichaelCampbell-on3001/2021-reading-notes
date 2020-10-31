@@ -93,5 +93,6 @@ ejs.render(str, data, options);
 ejs.renderFile(filename, data, options, function(err, str){
     // str => Rendered HTML string
 });
-```
-### I also checked out the [EJS Tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application) and the [Source Code for the EJS Tutorial](https://github.com/scotch-io/node-ejs).
+
+
+I also checked out the [EJS Tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application) and the [Source Code for the EJS Tutorial](https://github.com/scotch-io/node-ejs).
