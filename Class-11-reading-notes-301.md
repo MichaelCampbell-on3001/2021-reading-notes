@@ -98,13 +98,13 @@ ejs ./template_file.ejs -f data_file.json -o ./output.html
 1. **Download** a browser build from the latest release, and use it in a script tag.
 
 
+
 `
 <script src="ejs.js"></script>
 <script>
   let people = ['geddy', 'neil', 'alex'];
   let html = ejs.render('<%= people.join(", "); %>', {people: people});
 </script>
-  
 `
 
 
@@ -112,22 +112,15 @@ ejs ./template_file.ejs -f data_file.json -o ./output.html
 
 **Example**
 
-
-
-
-
 `
 <% if (user) { %>
   <h2><%= user.name %></h2>
 <% } %>
-
 `
 
   
 **Usage**
   
-
-
 `
 let template = ejs.compile(str, options);
 template(data);
@@ -139,7 +132,6 @@ ejs.render(str, data, options);
 ejs.renderFile(filename, data, options, function(err, str){
     // str => Rendered HTML string
 });
-
 `
 
 
