@@ -6,12 +6,12 @@ Here are my findings from reading the [ Google Books API Docs](https://developer
 #### Working with volumes
 **Performing a search**: You can perform a volumes search by sending an HTTP GET request to the following URI.
 
-```
+`
 https://www.googleapis.com/books/v1/volumes?q=search+terms
-```
-
+`
+`
 gleapis.com/books/v1/volumes?q=flowers+inauthor:keyes&key=yourAPIKey
-```
+`
 
 **Filtering**: You can use the filter parameter to restrict the returned results further by setting it the to one of the following values:
 + partial - Returns results where at least parts of the text are previewable.
@@ -40,16 +40,16 @@ gleapis.com/books/v1/volumes?q=flowers+inauthor:keyes&key=yourAPIKey
 
 **Retrieving a specific volume**: You can retrieve information for a specific volume by sending an HTTP GET request to the Volume resource URI.
 
-```
+`
 https://www.googleapis.com/books/v1/volumes/volumeId
-```
+`
 
 + Replace the volumeId path parameter with the ID of the volume to retrieve. See the Google + + Books IDs section for more information on volume IDs.
 **Request**: Below is an example of a GET request that gets a single volume:
 
-```
+`
 GET https://www.googleapis.com/books/v1/volumes/zyTCAlFPjgYC?key=yourAPIKey
-```
+`
 
 
 ### EJS Docs
@@ -72,49 +72,57 @@ Benefits of EJS:
 
 1. Install EJS with NPM
 
-```
+`
 $ npm install ejs
-```
+`
 
 1. Pass EJS a template string and some data. BOOM, you've got some HTML.
 
-```
+
+`
 
 let ejs = require('ejs');
 let people = ['geddy', 'neil', 'alex'];
 let html = ejs.render('<%= people.join(", "); %>', {people: people});
 
-```
+`
+
 
 1.  **CLI**: Feed it a template file and a data file, and specify an output file.
 
-```
+
+`
 ejs ./template_file.ejs -f data_file.json -o ./output.html
-```
+`
+
 1. **Download** a browser build from the latest release, and use it in a script tag.
 
-```
+
+`
 <script src="ejs.js"></script>
 <script>
   let people = ['geddy', 'neil', 'alex'];
   let html = ejs.render('<%= people.join(", "); %>', {people: people});
 </script>
   
-```
+`
+
 
 #### Documentation
 
 **Example**
 
-```
+
+`
 <% if (user) { %>
   <h2><%= user.name %></h2>
 <% } %>
-```
+`
+
   
 **Usage**
   
-```
+`
 let template = ejs.compile(str, options);
 template(data);
 // => Rendered HTML string
@@ -125,7 +133,7 @@ ejs.render(str, data, options);
 ejs.renderFile(filename, data, options, function(err, str){
     // str => Rendered HTML string
 });
-```
+`
 
 
 
