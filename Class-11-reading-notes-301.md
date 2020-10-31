@@ -79,13 +79,13 @@ $ npm install ejs
 1. Pass EJS a template string and some data. BOOM, you've got some HTML.
 
 
-`
+```
 
 let ejs = require('ejs');
 let people = ['geddy', 'neil', 'alex'];
 let html = ejs.render('<%= people.join(", "); %>', {people: people});
 
-`
+```
 
 
 1.  **CLI**: Feed it a template file and a data file, and specify an output file.
