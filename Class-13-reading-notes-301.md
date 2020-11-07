@@ -4,7 +4,7 @@
 
 ## [HTML5 Forms Reference](https://htmlreference.io/forms/)
 
-	| Syntax | Description |
+| Syntax | Description |
 | ----------- | ----------- |
 | **Button**  | Defines a clickable button. |
 | **fieldset** | Defines a group of controls within a form.|
