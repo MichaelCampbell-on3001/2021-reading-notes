@@ -9,4 +9,9 @@
 **input** - Defines an interactive control within a web form.
 **legend** - Defines a caption for a parent's content.
 **textarea** - Defines a multi-line text control within a web form.
+	| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 ## [Video Series on Styling HTML5 Forms](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g5_p_BVUGWykHfqx6bb7qK)
