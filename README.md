@@ -10,9 +10,9 @@ Hello, my name is **Michael**. This page contains my reading notes for my time a
 [Markdown](Markdown.md)
 
 
-Class 01 | Class 02 | Class 03 | Class 04
+Code 102 | Code 201 |Code 301 | Code 401
 -------- | ---------|---------|---------|
-[Growth Mindset](GrowthMindset.md)| [Tools and Terminal](tools-terminal.md) | [Rivisions and the Cloud](revisionsandthecloud.md) | [Design and Process](processanddesign.md)
+Intro to Software Development| Foundations of Software Development | Intermediate Software Development | Advanced Software Development
 
 
 
