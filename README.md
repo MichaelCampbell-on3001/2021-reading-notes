@@ -5,14 +5,11 @@ Hello, my name is **Michael**. This page contains my reading notes for my time a
 
 
 ## Table of contents
-[Tools and Terminal](tools-terminal.md)
-[Growth Mindset](GrowthMindset.md)
-[Markdown](Markdown.md)
 
 
 Code 102 | Code 201 |Code 301 | Code 401
 -------- | ---------|---------|---------|
-Intro to Software Development| Foundations of Software Development | Intermediate Software Development | Advanced Software Development
+[Intro to Software Development](Intro to Software Development)| [Foundations of Software Development](Intro to Software Development) | [Intermediate Software Development](Intro to Software Development) | [Advanced Software Development](Intro to Software Development)
 
 
 
