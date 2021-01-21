@@ -76,3 +76,6 @@ Many companies that utilize pair programing expect to train fresh hires from CS-
 1. Events
 
 
+```html
+   // code for coloring
+```
