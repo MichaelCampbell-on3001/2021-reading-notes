@@ -75,8 +75,4 @@ Many companies that utilize pair programing expect to train fresh hires from CS-
 1. Effects & Animation
 1. Events
 
-<span style="color:salmon">body background</span>
-<span style="color:lightgray">input</span>
-<span style="color:darkgray">button</span>
 
-what happens when i do this <span style="color:purple">mobile background color</span>
