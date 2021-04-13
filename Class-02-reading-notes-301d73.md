@@ -158,5 +158,7 @@ Returning null from a component’s render method does not affect the firing of 
 
 [React Tutorial through ‘Developer Tools’](https://reactjs.org/tutorial/tutorial.html)
 [LINK TO GAME](https://codepen.io/gaearon/pen/aWWQOG?editors=0010)
+
 [React Bootstrat Documentation](https://react-bootstrap.github.io/)
+
 [Netlify](https://www.netlify.com/)
