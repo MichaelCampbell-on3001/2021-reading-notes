@@ -20,7 +20,9 @@ ReactDOM.render(
 }
 ```
 Below is a refactored version of the code above that accepts an array of numbers and outputs a list of elements.: 
-`function NumberList(props) {
+```
+  {
+  function NumberList(props) {
   const numbers = props.numbers;
   const listItems = numbers.map((number) =>
     <li key={number.toString()}>
@@ -37,15 +39,20 @@ ReactDOM.render(
   <NumberList numbers={numbers} />,
   document.getElementById('root')
 );
-`
+```
+{
+
 ### Keys
+
 **Keys** help React identify which items have *changed, are added, or are removed*. Keys should be given to the **elements** inside the array to give the elements a stable *identity*.
 The best way to pick a key is to use a string that uniquely identifies a list item among its siblings. Most often you would use IDs from your data as keys:
 ### [in-depth explanation about why keys are necessary](https://reactjs.org/docs/reconciliation.html#recursing-on-children)
 **Extracting Components with Keys**
 **Keys** only make sense in the context of the surrounding **array**.
 For example, if you extract a ListItem component, you should keep the key on the `<ListItem />` elements in the array rather than on the `<li>` element in the ListItem itself.
+
 Example: Correct Key Usage
+
 ```
 {
 function ListItem(props) {
