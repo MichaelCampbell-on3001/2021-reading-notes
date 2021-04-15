@@ -1,7 +1,7 @@
 
 # Day 5 Reading Notes
 ## [React Docs - Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
-**React is a to build big, fast Web apps with JavaScript. 
+**React is a to build big, fast Web apps with JavaScript.** 
 One of the many great parts of React is how it makes you think about apps as you build them. 
 ### Step 1: Break The UI Into A Component Hierarchy
 1. FilterableProductTable: contains the entirety of the example
