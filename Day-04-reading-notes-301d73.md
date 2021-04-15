@@ -112,7 +112,7 @@ class Reservation extends React.Component {
 
 
 
-## {React Bootstrap - Forms](https://react-bootstrap.github.io/components/forms/)
+## [React Bootstrap - Forms](https://react-bootstrap.github.io/components/forms/)
 
 
 **Forms**
