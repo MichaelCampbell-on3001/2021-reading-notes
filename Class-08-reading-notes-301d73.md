@@ -1,4 +1,4 @@
-# Day 8 APIs [^1]
+# Day 8 APIs. [^1]
 
 
 ## [API Design Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
