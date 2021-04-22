@@ -1,5 +1,4 @@
-# Day 9 FUNCTIONAL PROGRAMMING[^1]
-
+# Day 9 FUNCTIONAL PROGRAMMING
 
 ### [Functional Programming Concepts](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)
 ## Concepts of Functional Programming in Javascript
@@ -89,4 +88,4 @@ function getLong(shortURL) {
 }
 ```
 [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-[^1]: These notes were compiled by someone under the influence of the covid-19 vaccination.
+
