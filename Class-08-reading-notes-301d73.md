@@ -1,4 +1,4 @@
-# Day 8 APIs. [^1]
+# Day 8 APIs.
 
 
 ## [API Design Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
@@ -25,4 +25,3 @@ Clients interact with a service by exchanging representations of resources. Many
 ## [RegExr - Pay particular attention to the cheatsheet](https://regexr.com/)
 ## [Regex Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
 ## [Regex 101](https://regex101.com/)
-[^1]: These notes were compiled by someone under the influence of the covid-19 vaccination.
