@@ -9,7 +9,7 @@ At the most basic level, a call stack is **a data structure that uses the Last I
 
 **LIFO:** Last In, First Out, it means that the **last function** that gets **pushed** into the stack is the **first to pop out**, when the function returns.
 
-! [Image Credit: CMU]
+![Image Credit: CMU]
 (https://cdn-media-1.freecodecamp.org/images/QgR2uIk7tW0YNz0Xm8g0jAPeRFI0e4sCejsv)
 
 ### To summarize the call stack
