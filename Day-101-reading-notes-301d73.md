@@ -1,6 +1,6 @@
 # Day 11 Authentication
 
-## [What is OAuth] (https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html)
+## [What is OAuth](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html)
 
 ### How the open authorization framework works?
 
