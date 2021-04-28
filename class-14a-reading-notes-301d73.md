@@ -5,6 +5,11 @@
 This led to what researcher Jane Margolis calls the **“experience gap.”** In a study she conducted in 1995, she found that among first-year computer-science students at *Carnegie Mellon University*, **40%** of male respondents passed the advanced-placement computer-science exam, meaning they could skip the introductory-level programming class. *None of the first year women achieved the same result.* Men were also more familiar with programming languages than women and were more likely to report having an “expert” level of programming proficiency before enrolling at Carnegie Mellon. Unsurprisingly, many women opted out of the computer-related courses early.
 Though there are isolated examples of *both vintage and contemporary* computer advertising aimed at women, it is clear that the advertising narrative around women and technology needs to be more inclusive if the gender gap is going to close. Until that happens, as Ames argues, advertising will continue to drive “a subtle message to girls and women that it’s not a place where they belong.”
 
+###[That Time When Women Stopped Coding](https://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding)
+
+- What occured during the same time as the beginning of the decline of women in computer sciene?
+- Why does it matter that males had been playing on computers growing up? It gives them more experience with the hardware and commands.
+
 ## [Employee breakdown of key technology companies](https://informationisbeautiful.net/visualizations/diversity-in-tech/)
 ## [Why diversity matters to your tech company](https://www.usatoday.com/story/tech/columnist/2015/07/21/why-diversity-matters-your-tech-company/30419871/)
 **Diverse companies perform better**
