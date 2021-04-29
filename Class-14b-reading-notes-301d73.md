@@ -11,4 +11,4 @@
 **Uses** [Air Quality API](https://www.iqair.com/air-pollution-data-api),[Weather API](https://www.metaweather.com/api/)
 
 ### Custom News Stream
-**Include** - [](https://developer.ap.org/)
+**Include** - [Associated Press API](https://developer.ap.org/), [REST API for Live News](https://mediastack.com/),
